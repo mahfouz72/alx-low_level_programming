@@ -14,8 +14,10 @@ int main(void)
 	{
 		putchar(n);
 		if(n <= 56 )
+		{
 			putchar(',');
 			putchar(32);
+		}
 	}
 	putchar('\n');
 	return (0);
